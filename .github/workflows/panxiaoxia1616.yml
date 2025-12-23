@@ -3,23 +3,21 @@ name: panxiaoxia1616
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
-
+    - cron: '20 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoxia1616
         env:
-          bjtnv8959: ${{ secrets.bjtnv8959 }}
+          rgzb671: ${{ secrets.rgzb671 }}
         run: |
-          echo $bjtnv8959 | jq -r .qwbgk73966 | /bin/bash
-          echo $ru807 | jq -r .yebur16 | /bin/bash
-          echo $yd19 | jq -r .kvll17 | /bin/bash
-          echo $bj50 | jq -r .phw8457 | /bin/bash
-          echo $b8254 | jq -r .ohyf7 | /bin/bash
-          echo $wee41 | jq -r .fgwm5 | /bin/bash
-          echo $da49 | jq -r .qetxr196 | /bin/bash
-          echo $ipfw6 | jq -r .hurd2314 | /bin/bash
+          echo $rgzb671 | jq -r .fej63 | /bin/bash
+          echo $f943 | jq -r .zfiy147 | /bin/bash
+          echo $i8297 | jq -r .nipr6 | /bin/bash
+          echo $gj125 | jq -r .acjj52247 | /bin/bash
+          echo $dj311 | jq -r .mf35 | /bin/bash
+          echo $gooqc8879 | jq -r .qs981 | /bin/bash
 
